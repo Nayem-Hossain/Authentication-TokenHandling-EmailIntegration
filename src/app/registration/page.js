@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const registration = () => {
+const Registration = () => {
     const [user, setUser] = useState({
         email: "",
         password: ""
@@ -19,7 +19,6 @@ const registration = () => {
 
     const handleRegistration = (e) => {
         e.preventDefault();
-        console.log(user);
     }
     return (
         <section className="bg-gray-50 dark:bg-gray-900">
@@ -101,4 +100,4 @@ const registration = () => {
     );
 };
 
-export default registration;
+export default Registration;

@@ -6,7 +6,7 @@ import Image from 'next/image'
 import user from '/public/default_user.png'
 import Link from 'next/link'
 
-const profile = () => {
+const Profile = () => {
     const router = useRouter();
 
     const handleLogout = async () => {
@@ -75,4 +75,4 @@ const profile = () => {
     );
 };
 
-export default profile;
+export default Profile;

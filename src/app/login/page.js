@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter } from 'next/navigation';
 
 
-const login = () => {
+const Login = () => {
 
     const router = useRouter();
 
@@ -27,7 +27,7 @@ const login = () => {
                 'Content-Type': 'application/json',
             },
         });
-        
+
         const data = await res.json();
         // Handle the response, display success or error messages, and redirect
         if (data['status'] === true) {
@@ -131,4 +131,4 @@ const login = () => {
     );
 };
 
-export default login;
+export default Login;
