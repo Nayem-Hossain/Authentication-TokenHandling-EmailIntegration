@@ -1,4 +1,4 @@
-export async function getUser() {
+export async function getUser(email, password) {
     // Send registration data to the server
     const response = await fetch('/api/registration', {
         method: 'POST',
