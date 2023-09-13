@@ -9,7 +9,7 @@ export async function GET(req, res) { // SMTP-simple mail transfer protocol.
 
         // 2. Mail Transporter
         const transporter = nodemailer.createTransport({
-            host: 'mail.teamrabbil.com',
+            host: "mail.teamrabbil.com",
             port: 25,
             secure: false,
             auth: {
@@ -17,7 +17,7 @@ export async function GET(req, res) { // SMTP-simple mail transfer protocol.
                 pass: "~sR4[bhaC[Qs",
             },
             tls: {
-                rejectUnauthorized: false
+                rejectUnauthorized: false,
             },
         });
 

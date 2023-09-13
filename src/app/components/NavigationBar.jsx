@@ -47,7 +47,7 @@ const NavigationBar = ({handleLogout}) => {
                                 </Link>
                             </li>
                             <li><Link href={""}>Settings</Link></li>
-                            <li><Link replace href={""} onClick={handleLogout}>Logout</Link></li>
+                            <li><Link href={""} onClick={handleLogout}>Logout</Link></li>
                         </ul>
                     </div>
                 </div>
